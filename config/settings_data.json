@@ -13,7 +13,7 @@
     "color_button": "#111111",
     "color_button_text": "#ffffff",
     "color_announcement": "#006b49",
-    "color_footer": "#111111",
+    "color_footer": "#006b49",
     "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
@@ -126,14 +126,6 @@
               "container_width": 20
             }
           },
-          "1494292485313": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "main-menu",
-              "container_width": 20
-            }
-          },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
@@ -153,7 +145,6 @@
         },
         "block_order": [
           "1494301487049",
-          "1494292485313",
           "1494292487693",
           "1494292481350"
         ],
