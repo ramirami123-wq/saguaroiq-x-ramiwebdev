@@ -105,42 +105,11 @@
         "divider": false,
         "enable_gutter": false
       }
-    },
-    "collection-callout": {
-      "type": "collection-callout",
-      "settings": {
-        "collection": "",
-        "subtitle": "Brand new",
-        "title": "Collection callout",
-        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
-        "cta_text1": "Shop Jackets",
-        "cta_link1": "",
-        "cta_text2": "Shop All",
-        "cta_link2": "",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image and text",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
-        "button_label": "",
-        "button_link": "",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 650,
-        "parallax": true
-      }
     }
   },
   "order": [
     "slideshow_KpXBU6",
     "rich-text",
-    "featured-collections",
-    "collection-callout",
-    "background-image-text"
+    "featured-collections"
   ]
 }

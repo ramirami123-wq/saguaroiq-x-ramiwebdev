@@ -26,7 +26,7 @@
     "color_image_1_opacity": 62,
     "color_small_image_bg": "#ffffff",
     "color_large_image_bg": "#111111",
-    "type_header_font_family": "itc_avant_garde_gothic_n7",
+    "type_header_font_family": "rubik_n5",
     "type_header_spacing": "0",
     "type_header_base_size": 35,
     "type_header_line_height": 1.2,
@@ -71,17 +71,18 @@
     "sections": {
       "header": {
         "type": "header",
+        "custom_css": [],
         "settings": {
           "logo": "shopify://shop_images/Photoroom-20241101_172739.png",
           "desktop_logo_width": 200,
           "mobile_logo_width": 90,
           "main_menu_link_list": "main-menu",
           "main_menu_alignment": "left-center",
-          "header_sticky": true,
+          "header_sticky": false,
           "sticky_index": true,
           "sticky_collection": false,
           "show_announcement": true,
-          "announcement_text": "Free shipping and returns",
+          "announcement_text": "worldwide shipping available🌍",
           "announcement_link": "",
           "announcement_closable": false
         }
@@ -168,46 +169,6 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
-        "blocks": {
-          "footer-promotions-0": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image_width": 650,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "footer-promotions-1": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image_width": 650,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "footer-promotions-2": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image_width": 650,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "footer-promotions-0",
-          "footer-promotions-1",
-          "footer-promotions-2"
-        ],
         "settings": {
           "hide_homepage": false,
           "image_size": "wide",
