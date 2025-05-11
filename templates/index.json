@@ -15,12 +15,12 @@
         "image_niYnA7": {
           "type": "image",
           "settings": {
-            "title": "Let's Go Barefoot !",
+            "title": "Free Your Feet. Feel the Earth.",
             "title_size": 80,
             "subheading": "",
             "link": "",
             "link_text": "SHOP ALL",
-            "text_align": "vertical-bottom horizontal-left",
+            "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/POST_22.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -40,31 +40,20 @@
         "autoplay_speed": 5
       }
     },
-    "featured-collection-switcher": {
-      "type": "featured-collection-switcher",
-      "settings": {
-        "title": "Most popular",
-        "collection1": "",
-        "collection2": "",
-        "per_row": 4,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Rich text"
+            "title": "Freedom Starts Here."
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": "<p>Step into the natural way of movement. Saguaro barefoot shoes are built to reconnect you with the ground beneath — ultra-light, ultra-flexible, and designed for freedom.</p>"
           }
         }
       },
@@ -84,59 +73,32 @@
         "1499789718857-0": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "men",
             "focal_point": "center center",
-            "size": "wide"
+            "size": "square-large"
           }
         },
         "1499789718857-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "women",
             "focal_point": "center center",
-            "size": "square-small"
+            "size": "square-large"
           }
         },
-        "1499789718857-2": {
+        "collection_3xpT9b": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kids",
             "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1499789718857-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "wide"
+            "size": "square-large"
           }
         }
       },
       "block_order": [
         "1499789718857-0",
         "1499789718857-1",
-        "1499789718857-2",
-        "1499789718857-3",
-        "1499789718857-4",
-        "1499789718857-5"
+        "collection_3xpT9b"
       ],
       "settings": {
         "title": "",
@@ -176,7 +138,6 @@
   },
   "order": [
     "slideshow_KpXBU6",
-    "featured-collection-switcher",
     "rich-text",
     "featured-collections",
     "collection-callout",
