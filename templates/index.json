@@ -29,12 +29,13 @@
         "image_GxDYXi": {
           "type": "image",
           "settings": {
-            "title": "Two line\nslide title.",
+            "title": "Free Your Feet. Feel the Earth.",
             "title_size": 80,
-            "subheading": "And an optional subheading",
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
-            "text_align": "vertical-bottom horizontal-left",
+            "link_text": "SHOP ALL",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/1002-6_870x_9bb76f0f-6c98-4e5e-8798-69cf280ad5db.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
