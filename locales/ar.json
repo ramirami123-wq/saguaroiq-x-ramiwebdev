@@ -126,6 +126,220 @@
             "origin_location_id_not_allowed": "لا تدعم طرق التسليم المطلوبة معرف موقع المصدر."
           }
         }
+      },
+      "field_errors": {
+        "delivery_line_detail_changed": "قد تكون بعض تفاصيل التسليم قد تغيرت. تأكد من طريقة الشحن وحاول مرة أخرى.",
+        "delivery_zone_not_found": "لم يتم العثور على المنطقة المحددة في البلد المحدد.",
+        "reduction_code_code_not_found": "أدخل رمز خصم صالح أو بطاقة هدية",
+        "reduction_code_discount_not_found": "أدخل رمز خصم صالح",
+        "reduction_code_gift_card_code_invalid": "أدخل بطاقة هدية صالحة",
+        "reduction_code_gift_card_unusable": "لا يمكنك استخدام بطاقة الهدايا لشراء بطاقة هدايا أخرى",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "لا يتم دعم بطاقات الهدايا مع خيارات الشراء المؤجل.",
+        "shipping_line_phone_blank": "أدخل رقم الهاتف لاستخدام طريقة التسليم هذه",
+        "shipping_line_phone_invalid": "أدخل رقم هاتف صالح",
+        "tips_invalid_tip_amount": "أدخل إكرامية أقل من %{amount}",
+        "gift_card_already_applied": "لقد تم تطبيق بطاقة الهدية هذه على طلبك بالفعل",
+        "gift_card_disabled": "بطاقة الهدية هذه لم تعد متاحة",
+        "gift_card_expired": "انتهت صلاحية بطاقة الهدية هذه",
+        "gift_card_depleted": "لا يوجد رصيد متبقي في بطاقة الهدية هذه",
+        "gift_card_currency_mismatch": "يمكن استخدام بطاقات الهدايا فقط في %{checkout_currency} مع هذا الطلب",
+        "gift_cards_not_supported_with_deferred_purchase_options": "لا يتم دعم بطاقات الهدايا مع خيارات الشراء المؤجل.",
+        "gift_card_buying_gift_card": "لا يمكنك استخدام بطاقة الهدايا لشراء بطاقة هدايا أخرى",
+        "payment_gateway_missing": "اختر طريقة الدفع.",
+        "payment_gateway_needs_paid_plan_error": "طريقة الدفع هذه غير متاحة في المتجر حاليًا",
+        "payment_gateway_not_in_test_mode": "لم يتم إعداده لاختبار الطلبات. لا يمكن لهذا المتجر قبول الطلبات الحقيقية أو المدفوعات الحقيقية.",
+        "payment_gateway_incompatible_with_multi_currency": "لإكمال عملية الدفع بالعملة المحلية الخاصة بك، يتعين عليك الدفع ببطاقة الائتمان.",
+        "payment_gateway_unsupported_for_subscriptions": "طريقة الدفع هذه غير متاحة لطلبات الاشتراك.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "طريقة الدفع هذه غير متاحة لخيارات الشراء المؤجل.",
+        "payment_gateway_unsupported_for_country": "طريقة الدفع هذه غير متاحة لبلد الشحن الخاص بك.",
+        "payment_gateway_unsupported_for_development_store_html": "لإجراء طلب اختبار، ستحتاج إلى استخدام بوابة دفع اختبارية. تعرف على المزيد حول <a href=\"%{docs_link}\">اختبار الطلبات في متاجر التطوير</a> .",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "لقد وصلت إلى الحد الأقصى لطلبات متجر التطوير باستخدام معالج الدفع هذا. لتقديم طلب آخر، ستحتاج إلى استخدام بوابة دفع تجريبية. تعرف على المزيد حول <a href=\"%{docs_link}\">اختبار الطلبات في متاجر التطوير</a> .",
+        "purchase_options_agreement_blank": "لمواصلة عملية الشراء، يجب عليك الموافقة على شروط الشراء المؤجل أو المتكرر.",
+        "physical_gift_card_invalid_quantity": "يجب أن تحتوي عناصر بطاقة الهدايا المادية على كمية تتوافق مع عدد رموز بطاقة الهدايا.",
+        "physical_gift_card_duplicate_code": "يحتوي عنصر بطاقة الهدايا المادية على رمز مكرر.",
+        "physical_gift_card_invalid_code": "رمز بطاقة الهدية المادية غير صالح.",
+        "email_blank": "أدخل البريد الإلكتروني",
+        "phone_blank": "أدخل رقم الهاتف",
+        "address_country_invalid": "حدد بلدًا/منطقة من القائمة",
+        "address_zip_invalid": "أدخل رمزًا بريديًا صالحًا",
+        "gift_card_invalid": "بطاقة الهدايا \"••••%{last_four_characters}\" لم تعد صالحة",
+        "vaulting_agreement_blank": "يجب حفظ بطاقتك لأن سداد رصيد هذا الطلب مستحق لاحقًا.",
+        "sms_marketing_phone_invalid": "أدخل رقم هاتف صالح",
+        "address_suggestion_did_you_mean_html": "هل تقصد %{html}؟",
+        "split_cart_international_shipping_not_supported": "يجب أن تستخدم جميع العناصر نفس طريقة التسليم عند الشحن دوليًا. قم بتحديث طريقة التسليم أو إنشاء طلبات متعددة.",
+        "invalid_delivery_address_reference_handle": "لم يتمكن من مطابقة عنوان التسليم المرجعي مع أي عناوين تسليم متاحة."
+      },
+      "store_credit_errors": {
+        "generic_error": "حدثت مشكلة في رصيد متجرك. حاول مرة أخرى أو أعد تحميل الصفحة."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "لقد تم تطبيق بطاقة الهدية على طلبك بالفعل",
+          "insufficient_funds": "لا يوجد رصيد متبقي في بطاقة الهدية هذه",
+          "expired": "انتهت صلاحية بطاقة الهدية هذه",
+          "not_available": "بطاقة الهدية هذه لم تعد متاحة",
+          "invalid": "أدخل بطاقة هدية صالحة",
+          "currency_mismatch": "يتم قبول بطاقات الهدايا فقط في %{shop_currency}",
+          "generic": "لم يتم إضافة بطاقة الهدية إلى عملية الدفع",
+          "throttle_limit_exceeded": "لقد تجاوزت الحد الأقصى لعدد المحاولات. حاول مرة أخرى لاحقًا.",
+          "no_longer_available": "لم يعد من الممكن استخدام بطاقة الهدايا هذه مع عملية الدفع هذه"
+        }
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "تحتوي تعليمات البضاعة %{position} %{name} على معرف ثابت فارغ.",
+        "invalid_stable_id_target": "تشير تعليمات البضائع %{position} %{name} إلى معرف الاستقرار %{stable_id}، ولكن هذا المعرف غير موجود في أسطر البضائع.",
+        "duplicate_variant_id": "تحتوي تعليمات البضاعة %{position} %{name} على معرف متغير مكرر %{variant_id}.",
+        "invalid_variant_id_target": "تشير تعليمات البضائع %{name} إلى معرف المتغير %{variant_id}، ولكن هذا المتغير غير موجود في أسطر البضائع.",
+        "invalid_price_override_target": "تعليمات تجاوز سعر السلعة للعنصر %{stable_id} غير صالحة لأنها مكون حزمة."
+      },
+      "payment_errors": {
+        "amount_too_small": "يجب أن يكون الحد الأدنى لمبلغ الدفع أكبر من 0.50 دولار أمريكي. يرجى المحاولة مرة أخرى بمبلغ أكبر.",
+        "method_not_available": "طريقة الدفع المطلوبة غير متاحة. اختر طريقة دفع أخرى وحاول مرة أخرى.",
+        "available_methods_updated": "تم تحديث طرق الدفع المتاحة.",
+        "generic_error": "حدثت مشكلة أثناء معالجة الدفعة. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "rejected_transaction": "تم رفض الدفع الخاص بك. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "credit_card_processing": "لا يمكن معالجة الدفعة الخاصة بك لأسباب فنية. حاول مرة أخرى بعد بضع دقائق أو استخدم طريقة دفع أخرى.",
+        "checkout_amount_changed": "لم يتم معالجة الدفع الخاص بك لأن المبلغ المستحق عند الدفع قد تغير. يرجى التحقق من طلبك والمحاولة مرة أخرى.",
+        "deferred_payment_not_allowed": "لا يُسمح بالدفعات المؤجلة. يُرجى التحقق من طلبك والمحاولة مرة أخرى.",
+        "deferred_payment_required": "يتطلب هذا الطلب دفعًا مؤجلًا. يرجى التحقق من طلبك والمحاولة مرة أخرى.",
+        "deferred_amount_changed": "لم تتمكن من معالجة الدفعة الخاصة بك لأن مبلغ الدفع المؤجل قد تغير. يرجى التحقق من طلبك والمحاولة مرة أخرى.",
+        "deferred_date_changed": "لم تتمكن من معالجة الدفعة الخاصة بك بسبب تغيير تاريخ الدفع المؤجل. يرجى التحقق من طلبك والمحاولة مرة أخرى.",
+        "order_total_changed": "لقد تغير إجمالي طلبك. راجعه وحاول مرة أخرى.",
+        "payment_processing": "لا يمكن معالجة الدفع الخاص بك لأسباب فنية. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "payment_processing_no_retry": "لا يمكن معالجة الدفع الخاص بك لأسباب فنية. يرجى تجربة طريقة دفع أخرى.",
+        "paypal_zero_amount": "لا يمكنك استخدام PayPal لطلبات بقيمة %{amount}. تأكد من صحة طلبك وادفع بدون PayPal.",
+        "paypal_invalid_token": "لم يكن PayPal متاحًا. حاول مرة أخرى أو استخدم خيار دفع آخر.",
+        "pay_later_failed": "حدث خطأ أثناء معالجة الدفع باستخدام طريقة الدفع لاحقًا. اختر طريقة دفع أخرى وحاول مرة أخرى.",
+        "three_d_secure_failed": "لم يتم التحقق من الدفع الخاص بك. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "three_d_secure_failed_duplicate": "فشلت عملية مصادقة 3D Secure الخاصة ببطاقة الائتمان لأن عملية أخرى جارية بالفعل.",
+        "three_d_secure_failed_payment_method": "لم يتم التحقق من بطاقتك. حاول مرة أخرى أو أضف بطاقة أخرى.",
+        "three_d_secure_throttled": "محاولات كثيرة جدًا؛ يرجى الانتظار قبل المحاولة مرة أخرى",
+        "subscription_agreement_blank": "لشراء اشتراك، يجب حفظ تفاصيل الدفع الخاصة بك. للمتابعة، تأكد من موافقتك أو قم بإزالة عناصر الاشتراك من طلبك.",
+        "insufficient_funds": "تم رفض الدفع الخاص بك بسبب عدم كفاية الأموال. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "multiple_deferred_payment_not_allowed": "يُسمح بدفعة مؤجلة واحدة فقط لكل طلب. يُرجى التحقق من طلبك والمحاولة مرة أخرى.",
+        "shipping_must_match_billing": "يجب أن يتطابق عنوان الفاتورة مع عنوان الشحن. يرجى استخدام طريقة دفع مختلفة.",
+        "decision_rule_block": "حدثت مشكلة أثناء معالجة الدفعة الخاصة بك. يرجى الاتصال بمالك المتجر.",
+        "pick_up_card": "تم رفض بطاقتك. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "cannot_verify": "لم يتم التحقق من تفاصيل الدفع الخاصة بك. تحقق من تفاصيل بطاقتك وحاول مرة أخرى.",
+        "invalid_number": "أدخل رقم بطاقة صالح",
+        "invalid_expiry_date": "أدخل تاريخ انتهاء الصلاحية صالحًا",
+        "invalid_cvc": "أدخل رمز أمان صالحًا",
+        "expired_card": "انتهت صلاحية بطاقتك. استخدم طريقة دفع أخرى.",
+        "card_declined": "تم رفض بطاقتك. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "processing_error": "حدثت مشكلة أثناء معالجة الدفعة. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "processing_error_checkout_as_guest": "حدثت مشكلة أثناء معالجة الدفعة. حاول مرة أخرى باستخدام طريقة دفع مختلفة أو {{checkout_as_guest_link}} .",
+        "selected_payment_method": "حدثت مشكلة في طريقة الدفع التي حددتها ولم يتم تحصيل أي رسوم منك. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "payment_method_billing_address": "حدثت مشكلة في عنوان إرسال الفواتير الخاص بطريقة الدفع التي حددتها ولم يتم تحصيل أي رسوم منك. تحقق من العنوان وحاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "call_issuer": "تم رفض بطاقتك. استخدم طريقة دفع أخرى أو اتصل بالبنك للحصول على مزيد من المعلومات.",
+        "test_mode_live_card": "لا يمكن لهذا المتجر قبول الطلبات الحقيقية أو المدفوعات الحقيقية.",
+        "transient_error": "حدثت مشكلة أثناء معالجة الدفعة. حاول تحديث هذه الصفحة أو التحقق من اتصالك بالإنترنت.",
+        "missing_shipping_address": "تعذّر معالجة الدفعة الخاصة بك لأن عنوان الشحن الخاص بك مفقود. أضف عنوان شحن وحاول مرة أخرى.",
+        "invalid_shipping_address": "لم نتمكن من معالجة الدفعة الخاصة بك لأننا لم نتمكن من العثور على عنوان الشحن الخاص بك. تحقق من عنوان الشحن الخاص بك وحاول مرة أخرى.",
+        "successful_offsite_with_gift_card_error": "حدثت مشكلة أثناء معالجة دفع بطاقة الهدية الخاصة بك. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+        "development_store_order_limit_reached": "لقد وصلت إلى الحد الأقصى لطلبات متجر التطوير باستخدام معالج الدفع هذا. لتقديم طلب آخر، ستحتاج إلى استخدام بوابة دفع تجريبية. تعرف على المزيد حول %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "لإجراء طلب اختباري، ستحتاج إلى استخدام بوابة دفع اختبارية. تعرف على المزيد حول %{development_store_order_testing_docs_link}."
+      },
+      "thank_you": {
+        "shipping_information_title": "معلومات الشحن",
+        "page_title": "شكرا لك، %{display_name}!",
+        "page_title_no_name": "شكرًا لك!",
+        "purchase_order_number_title": "رقم الطلب #%{رقم_طلب_الشراء}",
+        "cancelled_page_title": "تم إلغاء الطلب",
+        "failed_pending_payment_page_title": "هناك مشكلة في الدفع الخاص بك",
+        "customer_information_title": "تفاصيل الطلب",
+        "contact_information_title": "معلومات الاتصال",
+        "billing_address_title": "عنوان الفاتورة",
+        "company_location_title": "موقع",
+        "shipping_address_title": "عنوان الشحن",
+        "shipping_address_map_title": "خريطة جوجل تعرض نقطة عنوان الشحن: %{address}",
+        "payment_method_title": "طريقة الدفع",
+        "shipping_method_title": "طريقة الشحن",
+        "tracking_number": "عدد تتبع:",
+        "company_tracking_number": "رقم التتبع الخاص بـ %{company}:",
+        "estimated_arrival": "تاريخ التسليم المتوقع: ",
+        "estimated_delivery": "تقدير التسليم الحالي: ",
+        "re-order": "إعادة ترتيب نفس العناصر",
+        "confirmed": "مؤكد",
+        "gift_card_confirmation_by_text": "إذا لم تستلمها، قم بإعادة إرسال النص أو اتصل بنا.",
+        "gift_card_confirmation_by_email": "إذا لم تستلمها، قم بإعادة إرسال البريد الإلكتروني أو اتصل بنا.",
+        "gift_card_title": "بطاقات الهدايا",
+        "resend_gift_cards": "إعادة إرسال بطاقات الهدايا",
+        "thank_you_title": "تم تأكيد طلبك",
+        "thank_you_title_payment": "تم تأكيد الدفع الخاص بك",
+        "thank_you_title_review": "لقد تم تقديم طلبك للمراجعة",
+        "thank_you_title_payments_app_pending_default": "جاري معالجة الدفع الخاص بك",
+        "thank_you_title_payments_app_pending_buyer_action_required": "لقد تم استلام طلبك",
+        "thank_you_title_payments_app_failed_pending_payment": "لم يتم معالجة الدفع الخاص بك",
+        "thank_you_confirmed_order_with_email": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_confirmed_order_with_phone": "سوف تتلقى رسالة نصية تأكيدية برقم طلبك قريبًا.",
+        "thank_you_confirmed_order_with_email_and_phone": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_confirmed_order_with_email_payment": "لقد قمت بالدفع على طلبك في %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "لقد قمت بالدفع على طلبك في %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "لقد قمت بالدفع على طلبك في %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا للاستلام.",
+        "thank_you_confirmed_order_with_phone_pick_up": "سوف تتلقى رسالة نصية عندما يصبح طلبك جاهزًا للاستلام.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا للاستلام.",
+        "thank_you_confirmed_order_with_missing": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_confirmed_order_with_missing_payment": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_confirmed_order_with_missing_pick_up": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_confirmed_order_with_draft": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
+        "thank_you_confirmed_order_with_draft_payment": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
+        "thank_you_confirmed_order_with_draft_pick_up": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
+        "thank_you_payments_app_failed_pending_payment": "لم يتم تحصيل رسوم مقابل طلبك. ارجع إلى سلة التسوق لمراجعة طلبك والدفع مرة أخرى.",
+        "thank_you_payments_app_failed_pending_payment_payment": "لم يتم تحصيل رسوم مقابل طلبك. ارجع إلى سلة التسوق لمراجعة طلبك والدفع مرة أخرى.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "لم يتم تحصيل رسوم مقابل طلبك. ارجع إلى سلة التسوق لمراجعة طلبك والدفع مرة أخرى.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "سوف تتلقى رسالة نصية تأكيدية برقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "سوف تتلقى رسالة نصية تأكيدية برقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "سوف تتلقى رسالة نصية تأكيدية برقم طلبك قريبًا.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "بعد إكمال الدفع، سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "بعد إكمال الدفع، سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "بعد إكمال الدفع، سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "بعد إكمال الدفع، سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "بعد إكمال الدفع، سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "بعد إكمال الدفع، سوف تتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "بعد إكمال عملية الدفع، سوف تتلقى رسالة نصية تأكيدية تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "بعد إكمال عملية الدفع، سوف تتلقى رسالة نصية تأكيدية تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "بعد إكمال عملية الدفع، سوف تتلقى رسالة نصية تأكيدية تحتوي على رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "جاري معالجة دفعتك. ستصلك رسالة بريد إلكتروني عند تأكيد الدفع.",
+        "order_status_confirmed_order_with_email": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا.",
+        "order_status_confirmed_order_with_phone": "قد تتلقى رسالة نصية عندما يكون طلبك جاهزًا.",
+        "order_status_confirmed_order_with_email_and_phone": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا.",
+        "order_status_confirmed_order_with_email_payment": "لقد قمت بالدفع على طلبك في %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "لقد قمت بالدفع على طلبك في %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "لقد قمت بالدفع على طلبك في %{date}.",
+        "order_status_confirmed_order_with_email_pick_up": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا للاستلام.",
+        "order_status_confirmed_order_with_phone_pick_up": "سوف تتلقى رسالة نصية عندما يصبح طلبك جاهزًا للاستلام.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "ستتلقى بريدًا إلكترونيًا ورسالة نصية عندما يكون طلبك جاهزًا للاستلام.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "ستصلك رسالة تأكيد بالبريد الإلكتروني قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "ستصلك رسالة تأكيد بالبريد الإلكتروني قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "ستصلك رسالة تأكيد بالبريد الإلكتروني قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "ستصلك رسالة تأكيد بالبريد الإلكتروني قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "ستصلك رسالة تأكيد بالبريد الإلكتروني قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "ستصلك رسالة تأكيد بالبريد الإلكتروني قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "ستصلك رسالة تأكيد قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "ستصلك رسالة تأكيد قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "ستصلك رسالة تأكيد قريبًا. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "اتصل بنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "بعد إتمام عملية الدفع، ستتلقى رسالة تأكيد عبر البريد الإلكتروني. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "بعد إتمام عملية الدفع، ستتلقى رسالة تأكيد عبر البريد الإلكتروني. يمكنك تتبع طلبك باستخدام تطبيق المتجر.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "بعد إتمام عملية الدفع، ستتلقى رسالة تأكيد عبر البريد الإلكتروني. يمكنك تتبع طلبك باستخدام تطبيق المتجر."
       }
     }
   },
@@ -279,6 +493,189 @@
         "hide_events_accessibility_label": "إخفاء تفاصيل شحن الطلب"
       },
       "addresses_section_title": "الفواتير والشحن"
+    },
+    "settings": {
+      "title": "إعدادات",
+      "loading_accessibility_message": "تحميل صفحة الإعدادات",
+      "log_out_everywhere": {
+        "title": "تسجيل الخروج في كل مكان",
+        "description": "إذا فقدت جهازًا أو كانت لديك مخاوف أمنية، فقم بتسجيل الخروج من كل مكان لضمان أمان حسابك.",
+        "button": "تسجيل الخروج في كل مكان",
+        "warning_message": "سيتم تسجيل خروجك على هذا الجهاز أيضًا."
+      }
+    },
+    "shop_ads": {
+      "title": "عروض حصرية من المتجر",
+      "subtitle": "متاح لفترة محدودة",
+      "button": "استكشف في المتجر",
+      "previous_button": "سابق",
+      "next_button": "التالي"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "يمكن للعملاء طلب وإدارة الإرجاعات بأنفسهم.",
+        "disabled": "يجب على العملاء الاتصال بالتاجر لطلب الإرجاع."
+      }
+    }
+  },
+  "sections": {
+    "slideshow": {
+      "play_slideshow": "تشغيل عرض الشرائح",
+      "pause_slideshow": "إيقاف عرض الشرائح مؤقتًا"
+    }
+  },
+  "general": {
+    "accessibility": {
+      "skip_to_content": "انتقل إلى المحتوى",
+      "close": "يغلق",
+      "learn_more": "يتعلم أكثر"
+    },
+    "pagination": {
+      "previous": "سابق",
+      "next": "التالي"
+    },
+    "password_page": {
+      "login_form_password_label": "كلمة المرور",
+      "login_form_password_placeholder": "كلمة المرور الخاصة بك",
+      "login_form_submit": "يدخل",
+      "signup_form_email_label": "بريد إلكتروني",
+      "password_link": "كلمة المرور"
+    },
+    "breadcrumbs": {
+      "home": "بيت"
+    },
+    "social": {
+      "share_on_facebook": "يشارك",
+      "alt_text": {
+        "share_on_facebook": "شارك على الفيسبوك",
+        "share_on_pinterest": "ثبت على بينتريست"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_confirmation": "شكرا على الاشتراك",
+      "submit": "يشترك"
+    },
+    "search": {
+      "view_more": "عرض المزيد",
+      "title": "يبحث",
+      "submit": "يبحث",
+      "result_count": {
+        "one": "{{ count }} نتيجة",
+        "other": "{{ count }} نتائج"
+      }
+    },
+    "language": {
+      "dropdown_label": "لغة"
+    }
+  },
+  "blogs": {
+    "article": {
+      "view_all": "عرض الكل"
+    },
+    "comments": {
+      "title": "اترك تعليقا",
+      "name": "اسم",
+      "email": "بريد إلكتروني",
+      "message": "رسالة",
+      "post": "انشر تعليقا",
+      "success_moderated": "تم نشر تعليقك بنجاح، وسنقوم بنشره بعد قليل، حيث أن مدونتنا تخضع للرقابة.",
+      "success": "لقد تم نشر تعليقك بنجاح! شكرا لك!",
+      "with_count": {
+        "one": "{{ count }} تعليق",
+        "other": "{{ count }} تعليقات"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "العربة",
+      "remove": "يزيل",
+      "subtotal": "المجموع الفرعي",
+      "discounts": "خصومات",
+      "checkout": "الدفع"
+    },
+    "label": {
+      "quantity": "كمية",
+      "total": "المجموع"
+    }
+  },
+  "collections": {
+    "general": {
+      "all_of_collection": "عرض الكل",
+      "see_more": "عرض المزيد",
+      "see_less": "إظهار أقل"
+    },
+    "sorting": {
+      "title": "نوع"
+    },
+    "filters": {
+      "title_tags": "فلتر"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "اسم",
+      "email": "بريد إلكتروني",
+      "phone": "رقم التليفون",
+      "message": "رسالة",
+      "send": "يرسل",
+      "post_success": "شكرًا لك على الاتصال بنا. سنرد عليك في أقرب وقت ممكن."
+    }
+  },
+  "customer": {
+    "account": {
+      "details": "تفاصيل الحساب",
+      "view_addresses": "عرض العناوين"
+    },
+    "activate_account": {
+      "title": "تفعيل الحساب",
+      "subtext": "قم بإنشاء كلمة المرور الخاصة بك لتفعيل حسابك.",
+      "password": "كلمة المرور",
+      "password_confirm": "تأكيد كلمة المرور",
+      "submit": "تفعيل الحساب",
+      "cancel": "رفض الدعوة"
+    },
+    "addresses": {
+      "title": "العناوين",
+      "default": "تقصير",
+      "add_new": "إضافة عنوان",
+      "edit_address": "تعديل العنوان",
+      "first_name": "الاسم الأول",
+      "last_name": "اسم العائلة",
+      "company": "شركة",
+      "city": "مدينة",
+      "province": "مقاطعة",
+      "phone": "هاتف",
+      "set_default": "تعيين كعنوان افتراضي",
+      "add": "إضافة عنوان",
+      "update": "تحديث العنوان",
+      "cancel": "يلغي",
+      "edit": "يحرر",
+      "delete": "يمسح",
+      "delete_confirm": "هل أنت متأكد أنك تريد حذف هذا العنوان؟"
+    },
+    "login": {
+      "title": "تسجيل الدخول",
+      "email": "بريد إلكتروني",
+      "password": "كلمة المرور",
+      "guest_title": "متابعة كضيف",
+      "guest_continue": "يكمل"
+    },
+    "orders": {
+      "order_number": "طلب",
+      "date": "تاريخ",
+      "payment_status": "حالة الدفع",
+      "fulfillment_status": "حالة الإنجاز",
+      "total": "المجموع"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "disabled": "عاجز",
+      "expired": "انتهت صلاحيتها في {{ expiry }}",
+      "active": "تنتهي صلاحيتها في {{ expiry }}",
+      "redeem": "استخدم هذا الرمز عند الدفع لاسترداد بطاقة الهدايا الخاصة بك",
+      "shop_link": "ابدأ التسوق"
     }
   }
 }
