@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " و ",
+      "last_word_connector": "، و "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "هل أنت متأكد أنك تريد حذف العنوان {{address}} ؟"
+      },
+      "general": {
+        "page_title": "الدفع",
+        "error_page_title": "خطأ",
+        "skip_to_content": "انتقل إلى المحتوى",
+        "breadcrumb": "فتات الخبز",
+        "continue_button_label": "يكمل",
+        "complete_purchase_button_label": "الطلب الكامل",
+        "pay_now_button_label": "ادفع الآن",
+        "authenticate_purchase_button_label": "التحقق من صحة الدفع",
+        "edit_link_label": "يحرر",
+        "all_rights_reserved": "جميع الحقوق محفوظة %{shop_name}",
+        "print_policies_link_label": "مطبعة",
+        "cart": "العربة",
+        "close_modal_label": "يغلق",
+        "close_notice_label": "يغلق",
+        "expand_notice_label": "عرض المزيد",
+        "continue_to_shipping_method": "الاستمرار في الشحن",
+        "continue_to_payment_method": "متابعة الدفع",
+        "continue_to_review": "مراجعة الطلب",
+        "back_to_cart": "العودة إلى سلة التسوق",
+        "back_to_contact_information": "العودة إلى المعلومات",
+        "back_to_shipping_method": "العودة إلى الشحن",
+        "back_to_payment_method": "العودة إلى الدفع",
+        "choose_shipping_method": "اختر طريقة الشحن",
+        "choose_payment_method": "اختر طريقة الدفع",
+        "choose_billing_address": "اختر عنوان الفاتورة",
+        "contact_us_html": "اتصل بنا لمزيد من المعلومات",
+        "autocomplete_title": "اقتراحات",
+        "autocomplete_single_item": "1 عنصر متاح",
+        "autocomplete_multi_item": "{{number}} عناصر متاحة",
+        "autocomplete_close": "إغلاق الاقتراحات",
+        "forwarding_indicator": {
+          "new_window": "يفتح في نافذة جديدة.",
+          "external": "يفتح موقع ويب خارجي.",
+          "external_and_new_window": "يفتح موقع ويب خارجي في نافذة جديدة."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - الدفع"
+        },
+        "tooltip_accessibility_label": "مزيد من المعلومات",
+        "qr_code": "رمز الاستجابة السريعة",
+        "errors": {
+          "only_empty_terms_accepted": "هذه السياسة تقبل فقط الشروط الفارغة.",
+          "session_identifier_not_unique_error": "لقد حدث خطأ ما في طلبك، يرجى محاولة إتمام عملية الدفع مرة أخرى.",
+          "line_item_limit_reached": "تم الوصول إلى الحد الأقصى لعدد عناصر السطر.",
+          "session_is_already_finished": "لقد تم الانتهاء من جلسة الخروج هذه بالفعل.",
+          "merchandise": {
+            "only_value_constraint": "يُسمح فقط بالقيم الدقيقة في إدخال البضائع.",
+            "merchandise_not_found": "لم يتم العثور على المنتج.",
+            "merchandise_variant_not_found": "لم يتم العثور على متغير المنتج.",
+            "merchandise_not_applicable": "لا يمكن شراء متغير المنتج.",
+            "mixed_currencies": "تحتوي عملية الخروج على عناصر سطر بعملات مختلفة.",
+            "bundle_products_not_supported_for_b2b": "لا يمكن إضافة العناصر المجمعة إلى طلبات B2B لهذا الموقع.",
+            "gift_card_quantity_mismatch": "عند تحديد رموز بطاقة الهدايا، يجب أن يتطابق عدد عناصر السطر مع عدد رموز بطاقة الهدايا.",
+            "gift_card_not_supported": "لا يتم دعم بطاقات الهدايا في هذا الدفع.",
+            "gift_card_not_unique": "تظهر بطاقة الهدايا التي تحمل الرمز {{code}} أكثر من مرة في عملية الدفع هذه. يتم تنسيق الرموز قبل المقارنة.",
+            "gift_card_used": "تم بالفعل تعيين رمز بطاقة الهدايا {{code}} لبطاقة الهدايا. يتم تنسيق الرموز قبل المقارنة.",
+            "gift_card_invalid": "رمز بطاقة الهدية {{code}} غير صالح.",
+            "gift_card_code_changed": "تم تغيير رمز بطاقة الهدية {{proposed_code}} إلى {{formatted_code}} ليتوافق مع قواعد التنسيق.",
+            "gift_card_with_attributes_not_supported": "لا يتم دعم بطاقات الهدايا ذات السمات المخصصة في عملية الدفع هذه.",
+            "gift_card_with_components_not_supported": "لا يتم دعم بطاقات الهدايا التي تحتوي على مكونات في هذا الدفع.",
+            "selling_plan_mismatch": "تم تحديث الاشتراك.",
+            "selling_plan_not_supported": "لا يتم دعم الاشتراكات.",
+            "selling_plan_not_supported_b2b": "لا يتم دعم الاشتراكات لعمليات الدفع B2B.",
+            "price_mismatch": "السعر المقترح سابقًا لهذه السلعة كان غير صالح وتم تحديثه.",
+            "inventory_not_found": "لم يتم العثور على مخزون لهذه البضاعة.",
+            "product_not_published": "المنتج غير منشور.",
+            "product_not_published_in_buyer_location": "لم يتم نشر المنتج في موقع المشتري.",
+            "duplicated_stable_id": "يتمتع خط البضائع هذا بنفس معرف المنتج مثل خط آخر.",
+            "minimum_quantity_not_met": "كمية بعض العناصر لا تصل إلى الحد الأدنى المطلوب.",
+            "maximum_quantity_exceeded": "كمية بعض العناصر تتجاوز الحد الأقصى المسموح به.",
+            "quantity_increment_not_met": "كمية بعض العناصر لا تتوافق مع حدود الطلب.",
+            "quantity_rules_not_met": "كمية بعض العناصر لا تتوافق مع حدود الطلب.",
+            "bundle_requires_components": "هذه الحزمة من البضائع لا تحتوي على أي مكونات.",
+            "title_too_long": "عنوان البضاعة طويل جداً.",
+            "title_empty": "عنوان البضاعة فارغ."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "جهة الاتصال بالشركة ليس لديها إمكانية الوصول إلى الشركة.",
+            "customer_account_required": "يجب على العميل تسجيل الدخول للمتابعة.",
+            "company_location_required": "يجب على العميل اختيار موقع الشركة للاستمرار.",
+            "company_purchase_permission_required": "ليس لدى العميل إذن لوضع طلبات الشركة.",
+            "personal_order_not_allowed": "لا يُسمح بالطلبات الشخصية لهذا المتجر.",
+            "lost_access_to_company": "فقد العميل إمكانية الوصول إلى أي شركة.",
+            "contact_info_does_not_match_customer_account": "يجب أن تتطابق معلومات العميل المحددة مع حساب العميل المسجل الدخول إليه.",
+            "phone_number_does_not_match_expected_pattern": "رقم الهاتف المحدد لا يتطابق مع النمط المتوقع.",
+            "email_required": "يجب أن يكون البريد الإلكتروني مطلوبًا عند شراء البضائع باستخدام الاشتراك.",
+            "email_domain_is_invalid": "لا يمكن حل هذا المجال المحدد.",
+            "missing_contact_method": "فقدان طريقة اتصال صالحة.",
+            "checkout_completion_target_is_missing": "هدف إكمال عملية الدفع مفقود.",
+            "invalid_customer_profile": "تم تقديم ملف تعريف عميل غير صالح.",
+            "customer_profile_access_restricted": "لا يتوفر لدى Checkout الإذن بالوصول إلى ملف تعريف العميل.",
+            "checkout_completion_target_is_invalid_proc": "هدف إكمال عملية الدفع غير صالح.",
+            "buyer_identity_presentment_currency_does_not_match": "حدثت مشكلة أثناء معالجة طلبك. حاول مرة أخرى بعد بضع دقائق."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "يجب أن تحتوي العربة على خط تسليم واحد فقط.",
+            "wrong_number_of_delivery_lines": "يجب تحديد خط التسليم لكل مجموعة من البضائع.",
+            "external_delivery_promise_error": "خطأ في جلب وعد التسليم الخارجي.",
+            "options_instructions_invalid": "التعليمات المحددة لا تتطابق مع النمط المتوقع.",
+            "destination_address_required": "يجب إدخال عنوان الوجهة حتى تتمكن من الاستمرار.",
+            "pickup_points_unavailable": "نقاط الاستلام غير متاحة حاليًا.",
+            "local_pickup_delivery_line_detail_changed": "يجب تغيير استراتيجية التسليم المحلية الحالية حتى نتمكن من الاستمرار.",
+            "local_pickup_no_delivery_strategy_available": "لم يتم العثور على استراتيجية تسليم محلية متاحة.",
+            "origin_location_id_required": "مطلوب معرف موقع المنشأ عند طلب طريقة التسليم بالتجزئة.",
+            "invalid_origin_location_id": "لم يتم العثور على موقع يطابق معرف موقع الأصل.",
+            "origin_location_id_not_allowed": "لا تدعم طرق التسليم المطلوبة معرف موقع المصدر."
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "complete_label": "مكتمل",
+        "delivered_label": "تم التوصيل",
+        "delivered_title": "لقد تم تسليم شحنتك",
+        "delivered_description_digital": {
+          "one": "هذا العنصر كامل.",
+          "other": "هذه العناصر كاملة."
+        },
+        "delivered_description_gift_card": {
+          "one": "تم إرسال بطاقة الهدية عبر البريد الإلكتروني.",
+          "other": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "تم إرسال بطاقة الهدية برسالة نصية.",
+          "other": "تم إرسال بطاقات الهدايا عن طريق الرسائل النصية."
+        },
+        "gift_card_label": {
+          "one": "بطاقة هدية",
+          "other": "بطاقات الهدايا"
+        },
+        "gift_card_resend_button": {
+          "one": "إعادة إرسال بطاقة الهدية",
+          "other": "إعادة إرسال بطاقات الهدايا"
+        },
+        "gift_resend_success": {
+          "one": "بطاقة الهدية تم إرسالها مرة أخرى",
+          "other": "بطاقات الهدايا المرسلة"
+        },
+        "gift_resend_failure": {
+          "one": "حدثت مشكلة أثناء إعادة إرسال بطاقة الهدية الخاصة بك. حاول مرة أخرى أو اتصل بنا.",
+          "other": "حدثت مشكلة أثناء إعادة إرسال بطاقات الهدايا الخاصة بك. حاول مرة أخرى أو اتصل بنا."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "سيتم إرسال بطاقة الهدية في بريد إلكتروني منفصل.",
+          "other": "سيتم إرسال كل بطاقة هدية في بريد إلكتروني منفصل."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "سيتم إرسال بطاقة الهدية في رسالة نصية منفصلة.",
+          "other": "سيتم إرسال كل بطاقة هدية في رسالة نصية منفصلة."
+        },
+        "status_timestamp": "تم التحديث بتاريخ {{date}}",
+        "estimated_delivery": "من المتوقع {{date}}",
+        "delivered": "وصل {{date}}",
+        "buy_with_prime_logo_accessibility_label": "شعار Amazon Buy with Prime",
+        "in_review_description": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
+        "in_review_label": "في المراجعة",
+        "in_review_title": "جاري مراجعة طلبك",
+        "last_updated": "آخر تحديث {{date}}",
+        "multiple_shipments_label": "شحنات متعددة",
+        "multiple_statuses_label": "حالات الطلب المتعددة",
+        "no_tracking_number": "لا يوجد رقم تتبع لهذه الشحنة.",
+        "tracking_number": {
+          "one": "عدد تتبع",
+          "other": "أرقام التتبع"
+        },
+        "on_its_way_label": "في طريقها",
+        "on_its_way_title": "شحنتك في الطريق",
+        "out_for_delivery_label": "خارج للتسليم",
+        "out_for_delivery_title": "شحنتك جاهزة للتسليم",
+        "resume_tracking": "تتبع السيرة الذاتية",
+        "submitted_label": "مُقَدَّم",
+        "submitted_description": "مراجعة تفاصيل الطلب والدفع.",
+        "there_was_a_problem_label": "كانت هناك مشكلة",
+        "track_shipment": "تتبع الشحنة",
+        "request_return": "طلب العودة",
+        "view_order_for_details": "عرض الطلب للحصول على التفاصيل",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "إدارة على أمازون"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "الإدارة مع أمازون",
+            "new_window_disclaimer": "(يفتح نافذة جديدة)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "التسليم مضمون بواسطة",
+            "external_promise_brand_label": "التسليم عن طريق",
+            "not_delivered_by_label": "تم التسليم بعد {{date}}",
+            "delivery_guarantee_expired_label": "انتهت صلاحية ضمان التسليم",
+            "modal_accessibility_button_label": "تفاصيل وعد التسليم",
+            "download_shop_app_button_label": "تنزيل المتجر للتتبع",
+            "track_with_shop_button_label": "تتبع مع المتجر",
+            "claim_shop_cash_button_label": "المطالبة بأموال المتجر"
+          },
+          "details_modal": {
+            "title": "ضمان التوصيل",
+            "active_delivery_guarantee_label": "التسليم بحلول {{date}}",
+            "expired_delivery_guarantee_description": "انتهت صلاحية ضمان Shop Promise لمدة 30 يومًا لهذا الطلب.",
+            "expired_badge_label": "منتهي الصلاحية",
+            "order_includes_guarantees_label": "يتضمن طلبك {{deliveryAgreementsCount}} ضمانًا",
+            "order_includes_guarantees_description": "يضمن لك Shop Promise توصيلًا سريعًا وموثوقًا. اطلب استرداد النقود من Shop Cash إذا وصل طلبك بعد {{date}} .",
+            "delivered_after_label": "تم التسليم بعد {{date}}",
+            "delivered_after_description": "نظرًا لأن طلبك وصل متأخرًا، فأنت مؤهل للمطالبة بـ {{amount}} نقدًا من المتجر.",
+            "claimed_shop_cash_description": "نظرًا لأن هذا الطلب وصل متأخرًا، فقد قمت بالمطالبة بمبلغ {{amount}} نقدًا من المتجر.",
+            "eligible_to_claim_shop_cash_description": "نظرًا لأن طلبك وصل متأخرًا، فأنت مؤهل للمطالبة بـ {{amount}} نقدًا من المتجر.",
+            "learn_more_button_label": "يتعلم أكثر",
+            "claim_shop_cash_button_label": "المطالبة بأموال المتجر",
+            "view_balance_in_shop_button_label": "عرض الرصيد في المتجر",
+            "scan_to_claim_shop_cash_label": "امسح ضوئيًا للمطالبة بـ {{amount}} نقدًا من المتجر"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "التسليم مدعوم من",
+            "mixed_brands_label": "التسليم مضمون",
+            "not_delivered_by_label": "لم يتم التسليم بحلول {{date}}",
+            "modal_accessibility_button_label": "تفاصيل وعد التسليم"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "اطلب نقدًا من متجرك",
+            "no_shop_app_label": "{{appDownloadLink}} للمطالبة بـ Shop Cash",
+            "download_shop_app_label": "تنزيل المتجر"
+          },
+          "details_modal": {
+            "title": "التسليم مدعوم من",
+            "modal_accessiblity_label": "تفاصيل وعد التسليم",
+            "delivery_guarantee_label": "ضمان التوصيل",
+            "delivery_by_label": "التسليم بحلول {{date}}",
+            "delivery_guaranteed_by_label": "التسليم مضمون بحلول {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_not_authorized_label": "قد تكون مؤهلاً للمطالبة باسترداد النقود من المتجر لأن هذا الطلب وصل متأخرًا. قم بتسجيل الدخول لعرض التفاصيل.",
+              "redeemed_label": "لقد قمت بالفعل بالمطالبة بـ Shop Cash لأن هذا الطلب وصل متأخرًا.",
+              "expired_label": "لا يحق لهذا الطلب المطالبة بالتسليم المتأخر لأن ضمان الثلاثين يومًا قد انتهى.",
+              "no_shop_cash_label": "لا يحق لهذا الطلب المطالبة بالتسليم المتأخر لأنه لم يتم دفعه عبر Shop Pay.",
+              "no_longer_guaranteed_label": "لم تعد هذه العناصر مدعومة بضمان التسليم.",
+              "claim_shop_cash_title": "مسح ضوئيًا للمطالبة {{amount}} في Shop Cash",
+              "claim_shop_cash_description": "بإمكانك استخدام رصيد Shop Cash الخاص بك في عمليات الشراء المستقبلية في تطبيق Shop."
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "وضع علامة على أنه تم التسليم",
+      "fulfillment_status_title": "حالة الإنجاز: {{status}}",
+      "buy_again": "اشتري مرة أخرى",
+      "buy_again_accessibility_label": "اشتري مرة أخرى للطلب {{orderId}}",
+      "manage": "يدير",
+      "manage_accessiblity_label": "إدارة الطلب {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "إظهار التفاصيل",
+        "expand_events_accessibility_label": "إظهار تفاصيل شحن الطلب",
+        "hide_events_label": "إخفاء التفاصيل",
+        "hide_events_accessibility_label": "إخفاء تفاصيل شحن الطلب"
+      },
+      "addresses_section_title": "الفواتير والشحن"
+    }
+  }
+}
