@@ -331,7 +331,8 @@
           "add_file": "إضافة ملف",
           "invalid_file_type": "نوع الملف غير مدعوم",
           "dragged_over": "إسقاط الملف للتحميل"
-        }
+        },
+        "autocomplete_powered_by_google": "مدعوم من {{brandName}}"
       },
       "field_errors": {
         "delivery_line_detail_changed": "قد تكون بعض تفاصيل التسليم قد تغيرت. تأكد من طريقة الشحن وحاول مرة أخرى.",
@@ -1185,7 +1186,9 @@
           "error_authorizing": "خطأ في تفويض الدفع"
         },
         "account_connected": "تم ربط الحساب.",
-        "mor_disclaimer_html": "من خلال النقر أدناه وإكمال طلبك، فإنك توافق على شراء منتجك (منتجاتك) من Global-e كتاجر مسجل\n لهذه المعاملة، وفقًا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">لشروط وأحكام</a> Global-e\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">وسياسة الخصوصية</a> . Global-e هي شركة دولية\n مزود خدمة الإيفاء لـ %{shop_name}\n"
+        "mor_disclaimer_html": "من خلال النقر أدناه وإكمال طلبك، فإنك توافق على شراء منتجك (منتجاتك) من Global-e كتاجر مسجل\n لهذه المعاملة، وفقًا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">لشروط وأحكام</a> Global-e\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">وسياسة الخصوصية</a> . Global-e هي شركة دولية\n مزود خدمة الإيفاء لـ %{shop_name}\n",
+        "twint_label": "توينت",
+        "simulated_express_checkout": "المحافظ غير متاحة في معاينة المحرر بسبب منطقتك أو متصفحك"
       },
       "wallets": {
         "errors": {
@@ -1730,6 +1733,12 @@
       },
       "notifications": {
         "title": "إشعارات"
+      },
+      "order_summary": {
+        "subtotal_label_with_quantity": {
+          "one": "المجموع الفرعي · %{count} عنصر",
+          "other": "المجموع الفرعي · %{count} عناصر"
+        }
       }
     },
     "pagination": {
@@ -1737,7 +1746,8 @@
       "next": "التالي"
     },
     "links": {
-      "learn_more": "يتعلم أكثر"
+      "learn_more": "يتعلم أكثر",
+      "powered_by_shopify": "مدعوم من Shopify"
     },
     "feed": {
       "more": "أكثر"
@@ -2087,7 +2097,8 @@
               "no_shop_cash_label": "لا يحق لهذا الطلب المطالبة بالتسليم المتأخر لأنه لم يتم دفعه عبر Shop Pay.",
               "no_longer_guaranteed_label": "لم تعد هذه العناصر مدعومة بضمان التسليم.",
               "claim_shop_cash_title": "مسح ضوئيًا للمطالبة {{amount}} في Shop Cash",
-              "claim_shop_cash_description": "بإمكانك استخدام رصيد Shop Cash الخاص بك في عمليات الشراء المستقبلية في تطبيق Shop."
+              "claim_shop_cash_description": "بإمكانك استخدام رصيد Shop Cash الخاص بك في عمليات الشراء المستقبلية في تطبيق Shop.",
+              "may_be_eligible_label": "يضمن لك Shop Promise توصيلًا سريعًا وموثوقًا. اطلب استرداد النقود من Shop Cash إذا تأخر طلبك."
             }
           }
         },
@@ -2311,7 +2322,10 @@
       "link_sent": "تم إرسال الرابط",
       "cash_rounding": "تقريب النقدية",
       "adjusted_payment": "الدفع المعدل",
-      "adjusted_total": "الإجمالي المعدل"
+      "adjusted_total": "الإجمالي المعدل",
+      "shop_order_tracking": {
+        "track_order_with_shop": "تتبع الطلب مع المتجر"
+      }
     },
     "settings": {
       "title": "إعدادات",
@@ -2923,13 +2937,21 @@
     "slideshow": {
       "play_slideshow": "تشغيل عرض الشرائح",
       "pause_slideshow": "إيقاف عرض الشرائح مؤقتًا"
+    },
+    "map": {
+      "get_directions": "احصل على الاتجاهات",
+      "address_error": "خطأ في البحث عن هذا العنوان",
+      "address_no_results": "لا توجد نتائج لهذا العنوان",
+      "address_query_limit_html": "لقد تجاوزت حد استخدام واجهة برمجة تطبيقات Google. فكّر في الترقية إلى <a href=\"https://developers.google.com/maps/premium/usage-limits\">باقة مميزة</a> .",
+      "auth_error_html": "حدثت مشكلة أثناء مصادقة حساب خرائط جوجل الخاص بك. أنشئ وفعّل أذونات <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">واجهة برمجة تطبيقات JavaScript</a> وواجهة <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">برمجة تطبيقات الترميز الجغرافي</a> لتطبيقك."
     }
   },
   "general": {
     "accessibility": {
       "skip_to_content": "انتقل إلى المحتوى",
       "close": "يغلق",
-      "learn_more": "يتعلم أكثر"
+      "learn_more": "يتعلم أكثر",
+      "close_modal": "إغلاق (esc)"
     },
     "pagination": {
       "previous": "سابق",
@@ -2940,21 +2962,30 @@
       "login_form_password_placeholder": "كلمة المرور الخاصة بك",
       "login_form_submit": "يدخل",
       "signup_form_email_label": "بريد إلكتروني",
-      "password_link": "كلمة المرور"
+      "password_link": "كلمة المرور",
+      "login_form_heading": "ادخل إلى المتجر باستخدام كلمة المرور",
+      "signup_form_success": "سوف نرسل لك بريدًا إلكترونيًا قبل الافتتاح مباشرةً!",
+      "admin_link_html": "صاحب متجر؟ <a href=\"/admin\" class=\"text-link\">سجّل دخولك هنا</a>",
+      "powered_by_shopify_html": "سيتم تشغيل هذا المتجر بواسطة {{ shopify }}"
     },
     "breadcrumbs": {
-      "home": "بيت"
+      "home": "بيت",
+      "home_link_title": "العودة إلى الصفحة الرئيسية"
     },
     "social": {
       "share_on_facebook": "يشارك",
       "alt_text": {
         "share_on_facebook": "شارك على الفيسبوك",
-        "share_on_pinterest": "ثبت على بينتريست"
-      }
+        "share_on_pinterest": "ثبت على بينتريست",
+        "share_on_twitter": "تغريدة على تويتر"
+      },
+      "share_on_twitter": "سقسقة",
+      "share_on_pinterest": "ثبتها"
     },
     "newsletter_form": {
       "newsletter_confirmation": "شكرا على الاشتراك",
-      "submit": "يشترك"
+      "submit": "يشترك",
+      "newsletter_email": "أدخل بريدك الإلكتروني"
     },
     "search": {
       "view_more": "عرض المزيد",
@@ -2963,15 +2994,41 @@
       "result_count": {
         "one": "{{ count }} نتيجة",
         "other": "{{ count }} نتائج"
-      }
+      },
+      "collections": "المجموعات:",
+      "pages": "الصفحات:",
+      "articles": "المقالات:",
+      "no_results_html": "بحثك عن \" {{ terms }} \" لم يسفر عن أية نتائج.",
+      "results_for_html": "كشف بحثك عن \" {{ terms }} \" عن النتائج التالية:",
+      "placeholder": "ابحث في متجرنا"
     },
     "language": {
       "dropdown_label": "لغة"
+    },
+    "404": {
+      "title": "لم يتم العثور على الصفحة 404",
+      "subtext_html": "<p style=\";text-align:right;direction:rtl\">الصفحة التي تبحث عنها غير موجودة.</p><p style=\";text-align:right;direction:rtl\"> <a href=\"&lt;span%20class=\" notranslate>{{url}} '&gt;متابعة التسوق</a></p>"
+    },
+    "meta": {
+      "tags": "تم وضع علامة \" {{ tags }} \"",
+      "page": "الصفحة {{ page }}"
+    },
+    "drawers": {
+      "navigation": "التنقل في الموقع",
+      "close_menu": "إغلاق القائمة",
+      "expand_submenu": "توسيع القائمة الفرعية",
+      "collapse_submenu": "انهيار القائمة الفرعية"
+    },
+    "currency": {
+      "dropdown_label": "عملة"
     }
   },
   "blogs": {
     "article": {
-      "view_all": "عرض الكل"
+      "view_all": "عرض الكل",
+      "tags": "العلامات",
+      "read_more": "تابع القراءة",
+      "back_to_blog": "العودة إلى {{ title }}"
     },
     "comments": {
       "title": "اترك تعليقا",
@@ -2984,7 +3041,8 @@
       "with_count": {
         "one": "{{ count }} تعليق",
         "other": "{{ count }} تعليقات"
-      }
+      },
+      "moderated": "يرجى ملاحظة أنه يجب الموافقة على التعليقات قبل نشرها"
     }
   },
   "cart": {
@@ -2993,7 +3051,19 @@
       "remove": "يزيل",
       "subtotal": "المجموع الفرعي",
       "discounts": "خصومات",
-      "checkout": "الدفع"
+      "checkout": "الدفع",
+      "note": "مذكرة الطلب",
+      "shipping_at_checkout": "يتم احتساب الشحن والضرائب وأكواد الخصم عند الخروج.",
+      "update": "تحديث عربة التسوق",
+      "empty": "سلة التسوق الخاصة بك فارغة حاليًا.",
+      "continue_browsing_html": "<a href=\"&lt;span%20class=\" notranslate>{{url}} '&gt;متابعة التسوق</a>",
+      "close_cart": "إغلاق عربة التسوق",
+      "savings_html": "أنت توفر {{ savings }}",
+      "reduce_quantity": "تقليل كمية العنصر بمقدار عنصر واحد",
+      "increase_quantity": "زيادة كمية العنصر بمقدار عنصر واحد",
+      "terms": "أوافق على الشروط والأحكام",
+      "terms_html": "أوافق على <a href=\"&lt;span%20class=\" notranslate>الشروط والأحكام {{url}} ' target='_blank'&gt;</a>",
+      "terms_confirm": "يجب عليك الموافقة على الشروط والأحكام الخاصة بالمبيعات للتحقق"
     },
     "label": {
       "quantity": "كمية",
@@ -3004,13 +3074,17 @@
     "general": {
       "all_of_collection": "عرض الكل",
       "see_more": "عرض المزيد",
-      "see_less": "إظهار أقل"
+      "see_less": "إظهار أقل",
+      "catalog_title": "الكتالوج",
+      "view_all_products_html": "عرض الكل<br> {{ count }} منتجات",
+      "no_matches": "عذراً، لا يوجد منتجات في هذه المجموعة."
     },
     "sorting": {
       "title": "نوع"
     },
     "filters": {
-      "title_tags": "فلتر"
+      "title_tags": "فلتر",
+      "all_tags": "جميع المنتجات"
     }
   },
   "contact": {
@@ -3026,7 +3100,9 @@
   "customer": {
     "account": {
       "details": "تفاصيل الحساب",
-      "view_addresses": "عرض العناوين"
+      "view_addresses": "عرض العناوين",
+      "title": "حسابي",
+      "return": "العودة إلى الحساب"
     },
     "activate_account": {
       "title": "تفعيل الحساب",
@@ -3053,14 +3129,21 @@
       "cancel": "يلغي",
       "edit": "يحرر",
       "delete": "يمسح",
-      "delete_confirm": "هل أنت متأكد أنك تريد حذف هذا العنوان؟"
+      "delete_confirm": "هل أنت متأكد أنك تريد حذف هذا العنوان؟",
+      "address1": "العنوان 1",
+      "address2": "العنوان2",
+      "country": "دولة",
+      "zip": "الرمز البريدي"
     },
     "login": {
       "title": "تسجيل الدخول",
       "email": "بريد إلكتروني",
       "password": "كلمة المرور",
       "guest_title": "متابعة كضيف",
-      "guest_continue": "يكمل"
+      "guest_continue": "يكمل",
+      "forgot_password": "نسيت؟",
+      "sign_in": "تسجيل الدخول",
+      "cancel": "العودة إلى المتجر"
     },
     "orders": {
       "order_number": "طلب",
@@ -3068,7 +3151,8 @@
       "payment_status": "حالة الدفع",
       "fulfillment_status": "حالة الإنجاز",
       "total": "المجموع",
-      "none": "لم تقم بوضع أي طلبات بعد."
+      "none": "لم تقم بوضع أي طلبات بعد.",
+      "title": "سجل الطلبات"
     },
     "order": {
       "title": "الطلب {{ name }}",
@@ -3087,24 +3171,32 @@
       "quantity": "كمية",
       "total": "المجموع",
       "fulfilled_at_html": "تم تنفيذه {{ date }}",
-      "subtotal": "المجموع الفرعي"
+      "subtotal": "المجموع الفرعي",
+      "cancelled_html": "تم إلغاء الطلب في {{ date }}"
     },
     "recover_password": {
       "title": "إعادة تعيين كلمة المرور الخاصة بك",
       "email": "بريد إلكتروني",
       "submit": "يُقدِّم",
       "cancel": "يلغي",
-      "success": "لقد أرسلنا إليك رسالة بريد إلكتروني تحتوي على رابط لتحديث كلمة المرور الخاصة بك."
+      "success": "لقد أرسلنا إليك رسالة بريد إلكتروني تحتوي على رابط لتحديث كلمة المرور الخاصة بك.",
+      "subtext": "سنرسل لك بريدًا إلكترونيًا لإعادة تعيين كلمة المرور الخاصة بك."
     },
     "reset_password": {
       "title": "إعادة تعيين كلمة مرور الحساب",
-      "password": "كلمة المرور"
+      "password": "كلمة المرور",
+      "subtext": "أدخل كلمة مرور جديدة لـ {{ email }}",
+      "password_confirm": "تأكيد كلمة المرور",
+      "submit": "إعادة تعيين كلمة المرور"
     },
     "register": {
       "title": "إنشاء حساب",
       "email": "بريد إلكتروني",
       "password": "كلمة المرور",
-      "submit": "يخلق"
+      "submit": "يخلق",
+      "first_name": "الاسم الأول",
+      "last_name": "اسم العائلة",
+      "cancel": "العودة إلى المتجر"
     }
   },
   "gift_cards": {
@@ -3115,12 +3207,17 @@
       "redeem": "استخدم هذا الرمز عند الدفع لاسترداد بطاقة الهدايا الخاصة بك",
       "shop_link": "ابدأ التسوق",
       "print": "مطبعة",
-      "add_to_apple_wallet": "أضف إلى Apple Wallet"
+      "add_to_apple_wallet": "أضف إلى Apple Wallet",
+      "title_html": "إليك بطاقة الهدايا الخاصة بك {{ value }} {{ shop }} !",
+      "subtext": "هذه بطاقة الهدية الخاصة بك!"
     }
   },
   "home_page": {
     "onboarding": {
-      "collection_title": "مجموعة"
+      "collection_title": "مجموعة",
+      "product_title": "مثال على المنتج",
+      "product_description": "تُستخدم هذه المنطقة لوصف تفاصيل منتجك. أخبر عملاءك عن شكله وملمسه وأسلوبه. أضف تفاصيل حول اللون والمواد المستخدمة والمقاسات ومكان الصنع.",
+      "no_content": "لا يحتوي هذا القسم حاليًا على أي محتوى. أضف محتوىً إليه باستخدام الشريط الجانبي."
     }
   },
   "layout": {
@@ -3138,7 +3235,14 @@
     "general": {
       "color_swatch_trigger": "لون",
       "sale_price": "سعر البيع",
-      "regular_price": "السعر العادي"
+      "regular_price": "السعر العادي",
+      "size_trigger": "مقاس",
+      "size_chart": "جدول المقاسات",
+      "save_html": "حفظ {{ saved_amount }}",
+      "collection_return": "العودة إلى {{ collection }}",
+      "next_product": "التالي: {{ title }}",
+      "from_text_html": "من {{ price }}",
+      "reviews": "المراجعات"
     },
     "product": {
       "description": "وصف",
@@ -3147,14 +3251,28 @@
       "quantity": "كمية",
       "add_to_cart": "أضف إلى السلة",
       "view_in_space": "عرض في مساحتك",
-      "view_in_space_label": "عرض في مساحتك، وتحميل العنصر في نافذة الواقع المعزز"
+      "view_in_space_label": "عرض في مساحتك، وتحميل العنصر في نافذة الواقع المعزز",
+      "in_stock_label": "متوفر في المخزون، جاهز للشحن",
+      "stock_label": {
+        "one": "مخزون منخفض - {{ count }} عنصر متبقي",
+        "other": "مخزون منخفض - {{ count }} عناصر متبقية"
+      },
+      "preorder": "النظام السابق",
+      "include_taxes": "الضريبة متضمنة.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class=\" notranslate>{{ الرابط }} '&gt;يتم احتساب الشحن</a> عند الخروج.",
+      "will_not_ship_until": "جاهز للشحن {{ date }}",
+      "will_be_in_stock_after": "عاد إلى المخزون {{ date }}",
+      "waiting_for_stock": "المخزون في الطريق"
     }
   },
   "store_availability": {
     "general": {
       "view_store_info": "عرض معلومات المتجر",
       "check_other_stores": "التحقق من التوفر في المتاجر الأخرى",
-      "pick_up_available": "متاح الاستلام"
+      "pick_up_available": "متاح الاستلام",
+      "pick_up_currently_unavailable": "الاستلام غير متاح حاليًا",
+      "pick_up_available_at_html": "الاستلام متاح في <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "الاستلام غير متاح حاليًا في <strong>{{ location_name }}</strong>"
     }
   }
 }
