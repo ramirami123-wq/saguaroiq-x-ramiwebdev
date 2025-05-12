@@ -141,12 +141,136 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "x_4GfwCC": {
+      "type": "x",
+      "blocks": {
+        "image_ztDp3Q": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_3yFnXK": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_DPTXNP": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_8ccwAw": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_HyzffT": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_zycVnF": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_hC9M8R": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_AETUmE": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_wx63Cc": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_HDmrUh": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_c4A6jk": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_GwHHCG": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "image_ztDp3Q",
+        "image_3yFnXK",
+        "image_DPTXNP",
+        "image_8ccwAw",
+        "image_HyzffT",
+        "image_zycVnF",
+        "image_hC9M8R",
+        "image_AETUmE",
+        "image_wx63Cc",
+        "image_HDmrUh",
+        "image_c4A6jk",
+        "image_GwHHCG"
+      ],
+      "name": "SS - Glow Testimonial",
+      "settings": {
+        "animation_time": 30,
+        "loop_amount": 2,
+        "header_before_gradient": "Our customers",
+        "header_gradient": "love",
+        "header": "the product",
+        "header_color": "#0B1128",
+        "header_font_size": 42,
+        "header_mob_font_size": 28,
+        "review_font_size": 16,
+        "review_font_color": "#0B1128",
+        "gradient_color_1": "#4222DE",
+        "gradient_color_2": "#659BFF",
+        "gradient_color_3": "#7FF6E8",
+        "blur_color": "#B8B1DC",
+        "background-color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_KpXBU6",
     "rich-text",
     "featured-collections",
-    "text_and_image_TyGYxj"
+    "text_and_image_TyGYxj",
+    "x_4GfwCC"
   ]
 }
