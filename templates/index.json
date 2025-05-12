@@ -123,11 +123,30 @@
         "divider": false,
         "enable_gutter": false
       }
+    },
+    "text_and_image_TyGYxj": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/zapatos-barefoot-saguaro-vitality-iii-xza054bk-negro.jpg",
+        "image2": "shopify://shop_images/saguaro-barefoot-sneakers-flexibility-roll.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Feel Every Step",
+        "text": "<p>Saguaro barefoot shoes let your feet move the way nature intended — light, flexible, and free.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
     "slideshow_KpXBU6",
     "rich-text",
-    "featured-collections"
+    "featured-collections",
+    "text_and_image_TyGYxj"
   ]
 }
