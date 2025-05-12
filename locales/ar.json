@@ -2486,7 +2486,44 @@
       "date": "تاريخ",
       "payment_status": "حالة الدفع",
       "fulfillment_status": "حالة الإنجاز",
-      "total": "المجموع"
+      "total": "المجموع",
+      "none": "لم تقم بوضع أي طلبات بعد."
+    },
+    "order": {
+      "title": "الطلب {{ name }}",
+      "date_html": "تم وضعه في {{ date }}",
+      "cancelled_reason": "السبب: {{ reason }}",
+      "billing_address": "عنوان الفاتورة",
+      "payment_status": "حالة الدفع",
+      "shipping_address": "عنوان الشحن",
+      "fulfillment_status": "حالة الإنجاز",
+      "discount": "تخفيض",
+      "shipping": "شحن",
+      "tax": "ضريبة",
+      "product": "منتج",
+      "sku": "رقم المنتج",
+      "price": "سعر",
+      "quantity": "كمية",
+      "total": "المجموع",
+      "fulfilled_at_html": "تم تنفيذه {{ date }}",
+      "subtotal": "المجموع الفرعي"
+    },
+    "recover_password": {
+      "title": "إعادة تعيين كلمة المرور الخاصة بك",
+      "email": "بريد إلكتروني",
+      "submit": "يُقدِّم",
+      "cancel": "يلغي",
+      "success": "لقد أرسلنا إليك رسالة بريد إلكتروني تحتوي على رابط لتحديث كلمة المرور الخاصة بك."
+    },
+    "reset_password": {
+      "title": "إعادة تعيين كلمة مرور الحساب",
+      "password": "كلمة المرور"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "email": "بريد إلكتروني",
+      "password": "كلمة المرور",
+      "submit": "يخلق"
     }
   },
   "gift_cards": {
@@ -2495,7 +2532,48 @@
       "expired": "انتهت صلاحيتها في {{ expiry }}",
       "active": "تنتهي صلاحيتها في {{ expiry }}",
       "redeem": "استخدم هذا الرمز عند الدفع لاسترداد بطاقة الهدايا الخاصة بك",
-      "shop_link": "ابدأ التسوق"
+      "shop_link": "ابدأ التسوق",
+      "print": "مطبعة",
+      "add_to_apple_wallet": "أضف إلى Apple Wallet"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "collection_title": "مجموعة"
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "العربة"
+    },
+    "customer": {
+      "account": "حساب",
+      "log_out": "تسجيل الخروج",
+      "log_in": "تسجيل الدخول",
+      "create_account": "إنشاء حساب"
+    }
+  },
+  "products": {
+    "general": {
+      "color_swatch_trigger": "لون",
+      "sale_price": "سعر البيع",
+      "regular_price": "السعر العادي"
+    },
+    "product": {
+      "description": "وصف",
+      "sold_out": "نفذ",
+      "unavailable": "غير متاح",
+      "quantity": "كمية",
+      "add_to_cart": "أضف إلى السلة",
+      "view_in_space": "عرض في مساحتك",
+      "view_in_space_label": "عرض في مساحتك، وتحميل العنصر في نافذة الواقع المعزز"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "عرض معلومات المتجر",
+      "check_other_stores": "التحقق من التوفر في المتاجر الأخرى",
+      "pick_up_available": "متاح الاستلام"
     }
   }
 }
