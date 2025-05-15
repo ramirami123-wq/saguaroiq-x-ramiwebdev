@@ -873,7 +873,8 @@
               "one": "كل يوم"
             }
           },
-          "shipping_price_included": "متضمن"
+          "shipping_price_included": "متضمن",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "تكلفة الشحن الأولى %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})، ثم %{shipping_price} %{billing_cycle}"
         }
       },
       "localized_fields": {
@@ -1904,7 +1905,8 @@
         "subtotal_label": "المجموع الفرعي",
         "shipping_label": "شحن",
         "tip_label": "نصيحة",
-        "taxes_label": "الضرائب"
+        "taxes_label": "الضرائب",
+        "discount_code_allocations_mismatch": "تم تغيير رمز خصم <strong style=\"text-transform:uppercase\">%{code}</strong> . راجع سلة التسوق وحاول مرة أخرى."
       },
       "delivery_options": {
         "free_total_label": "حر",
