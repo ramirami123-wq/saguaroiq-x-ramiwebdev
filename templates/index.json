@@ -220,25 +220,25 @@
         "text_block_pwK3WY": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "icon": "truck",
+            "title": "worldwide delivery",
+            "text": ""
           }
         },
         "text_block_dNqrdT": {
           "type": "text_block",
           "settings": {
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "title": "24/7 customer support",
+            "text": ""
           }
         },
         "text_block_rLMpUh": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "icon": "wallet",
+            "title": "SAFE & SECURE PAYMENT",
+            "text": ""
           }
         }
       },
@@ -252,10 +252,10 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
-        "divider": false
+        "divider": true
       }
     }
   },
