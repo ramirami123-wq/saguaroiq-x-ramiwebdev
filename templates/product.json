@@ -107,7 +107,7 @@
         "direction": "left",
         "inside_padding": 6,
         "text_font": "open_sans_n4",
-        "text_size": 50,
+        "text_size": 20,
         "text_size_mobile": 26,
         "scrolling_speed": 25,
         "scrolling_speed_mobile": 30,
