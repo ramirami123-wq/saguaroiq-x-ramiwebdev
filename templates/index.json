@@ -124,6 +124,29 @@
         "enable_gutter": false
       }
     },
+    "jojk_43ejw3": {
+      "type": "jojk",
+      "name": "SS - Scrolling text",
+      "settings": {
+        "text": "🏃‍♂️ Perfect for Every Move",
+        "icon_width": 24,
+        "link": "",
+        "direction": "left",
+        "inside_padding": 6,
+        "text_font": "open_sans_n4",
+        "text_size": 50,
+        "text_size_mobile": 26,
+        "scrolling_speed": 25,
+        "scrolling_speed_mobile": 30,
+        "text_spacing": true,
+        "pause_hover": false,
+        "text_color": "#ffffff",
+        "text_gradient": "",
+        "background_color": "#006b49",
+        "background_gradient": "",
+        "direction_rtl": false
+      }
+    },
     "text_and_image_TyGYxj": {
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
@@ -257,14 +280,39 @@
         "button_link": "",
         "divider": true
       }
+    },
+    "jojk_Fc4FPR": {
+      "type": "jojk",
+      "name": "SS - Scrolling text",
+      "settings": {
+        "text": "🦶 Strengthen Your Feet",
+        "icon_width": 24,
+        "link": "",
+        "direction": "left",
+        "inside_padding": 6,
+        "text_font": "open_sans_n4",
+        "text_size": 70,
+        "text_size_mobile": 22,
+        "scrolling_speed": 25,
+        "scrolling_speed_mobile": 30,
+        "text_spacing": true,
+        "pause_hover": false,
+        "text_color": "#ffffff",
+        "text_gradient": "",
+        "background_color": "#006b49",
+        "background_gradient": "",
+        "direction_rtl": false
+      }
     }
   },
   "order": [
     "slideshow_KpXBU6",
     "rich-text",
     "featured-collections",
+    "jojk_43ejw3",
     "text_and_image_TyGYxj",
     "x_4GfwCC",
-    "text_with_icons_4wGCyj"
+    "text_with_icons_4wGCyj",
+    "jojk_Fc4FPR"
   ]
 }
