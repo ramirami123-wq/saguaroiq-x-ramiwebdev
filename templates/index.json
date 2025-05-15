@@ -145,100 +145,49 @@
     "x_4GfwCC": {
       "type": "x",
       "blocks": {
-        "image_ztDp3Q": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
-        "image_3yFnXK": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
         "image_DPTXNP": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
-        "image_8ccwAw": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
-        "image_HyzffT": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
-        "image_zycVnF": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
-        "image_hC9M8R": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
-            "review_rating": 5
-          }
-        },
-        "image_AETUmE": {
-          "type": "Image",
-          "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/DSC09155.jpg",
+            "review_text": "Feels just like walking barefoot on clouds.",
             "review_rating": 5
           }
         },
         "image_wx63Cc": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/DSC09181.jpg",
+            "review_text": "My feet finally feel completely free.",
             "review_rating": 5
           }
         },
         "image_HDmrUh": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/DSC09180.jpg",
+            "review_text": "My posture and balance improved almost instantly.",
             "review_rating": 5
           }
         },
         "image_c4A6jk": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/DSC09073.jpg",
+            "review_text": "These shoes made me love walking again",
             "review_rating": 5
           }
         },
         "image_GwHHCG": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/DSC09164.jpg",
+            "review_text": "Perfect for hikes, gym workouts, and errands.",
             "review_rating": 5
           }
         }
       },
       "block_order": [
-        "image_ztDp3Q",
-        "image_3yFnXK",
         "image_DPTXNP",
-        "image_8ccwAw",
-        "image_HyzffT",
-        "image_zycVnF",
-        "image_hC9M8R",
-        "image_AETUmE",
         "image_wx63Cc",
         "image_HDmrUh",
         "image_c4A6jk",
@@ -256,13 +205,57 @@
         "header_mob_font_size": 28,
         "review_font_size": 16,
         "review_font_color": "#0b1128",
-        "gradient_color_1": "#4222de",
-        "gradient_color_2": "#659bff",
-        "gradient_color_3": "#7ff6e8",
-        "blur_color": "#b8b1dc",
+        "gradient_color_1": "#006b49",
+        "gradient_color_2": "#006b49",
+        "gradient_color_3": "#c8c8c8",
+        "blur_color": "#6db49c",
         "background-color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "text_with_icons_4wGCyj": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_pwK3WY": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+          }
+        },
+        "text_block_dNqrdT": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+          }
+        },
+        "text_block_rLMpUh": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_pwK3WY",
+        "text_block_dNqrdT",
+        "text_block_rLMpUh"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
       }
     }
   },
@@ -271,6 +264,7 @@
     "rich-text",
     "featured-collections",
     "text_and_image_TyGYxj",
-    "x_4GfwCC"
+    "x_4GfwCC",
+    "text_with_icons_4wGCyj"
   ]
 }
