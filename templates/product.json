@@ -97,6 +97,29 @@
         "max_width": true
       }
     },
+    "jojk_PEjeUi": {
+      "type": "jojk",
+      "name": "SS - Scrolling text",
+      "settings": {
+        "text": "worldwide shipping available",
+        "icon_width": 24,
+        "link": "",
+        "direction": "left",
+        "inside_padding": 6,
+        "text_font": "open_sans_n4",
+        "text_size": 50,
+        "text_size_mobile": 26,
+        "scrolling_speed": 25,
+        "scrolling_speed_mobile": 30,
+        "text_spacing": true,
+        "pause_hover": false,
+        "text_color": "#ffffff",
+        "text_gradient": "",
+        "background_color": "#006b49",
+        "background_gradient": "",
+        "direction_rtl": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -129,6 +152,7 @@
   "order": [
     "main",
     "sub",
+    "jojk_PEjeUi",
     "product-recommendations",
     "collection-return",
     "17473342870bb0d7da"
