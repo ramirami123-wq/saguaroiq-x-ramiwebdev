@@ -171,7 +171,19 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "442549160356511856": {
+        "type": "shopify://apps/ck-whatsapp-chat-abandoned/blocks/app-embed-block/ce4c5d89-06d5-4502-b18d-35d424a3f693",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Classic": {
