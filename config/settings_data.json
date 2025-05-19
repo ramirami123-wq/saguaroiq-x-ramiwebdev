@@ -48,6 +48,7 @@
     "animate_images_style": "zoom-fade",
     "animate_buttons": true,
     "animate_underlines": true,
+    "vendor_enable": true,
     "cart_type": "drawer",
     "cart_icon": "cart",
     "share_facebook": false,
