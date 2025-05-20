@@ -36,7 +36,8 @@
             "link": "",
             "link_text": "SHOP ALL",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/1002-6_870x_9bb76f0f-6c98-4e5e-8798-69cf280ad5db.jpg",
+            "image": "shopify://shop_images/DSC09138_d9802d00-f143-40de-9df1-2e2be1c90890.jpg",
+            "image_mobile": "shopify://shop_images/DSC09138_d9802d00-f143-40de-9df1-2e2be1c90890.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
