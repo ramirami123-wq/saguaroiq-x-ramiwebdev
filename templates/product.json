@@ -29,7 +29,7 @@
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": true
+            "color_swatches": false
           }
         },
         "sales_point": {
