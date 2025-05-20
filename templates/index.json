@@ -22,6 +22,7 @@
             "link_text": "SHOP ALL",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/DSC09153_520ae65d-eed9-4d1e-929e-d0401918b0e5.jpg",
+            "image_mobile": "shopify://shop_images/DSC09153_520ae65d-eed9-4d1e-929e-d0401918b0e5.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
