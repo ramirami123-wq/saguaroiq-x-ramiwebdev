@@ -2376,7 +2376,8 @@
         "email_us_button_label": "أرسل لنا بريدا إلكترونيا",
         "message": "اتصل بنا لإضافة عنوان لهذا الموقع لإكمال عملية الدفع.",
         "title": "موقع بدون عنوان",
-        "alt_header": "عنوان الشحن مفقود"
+        "alt_header": "عنوان الشحن مفقود",
+        "header": "ليس لديك عنوان شحن لهذا الموقع"
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
@@ -3302,7 +3303,8 @@
       "summary_list_title_accessibility_label": "طلب العناصر",
       "summary_title": "ملخص الطلب",
       "summary_totals_title_accessibility_label": "مجموع الطلبات",
-      "order_details_skeleton_accessibility_label": "قم بتسجيل الدخول لعرض كافة تفاصيل الطلب."
+      "order_details_skeleton_accessibility_label": "قم بتسجيل الدخول لعرض كافة تفاصيل الطلب.",
+      "marketing_checkmark_label": "لقد اشتركت لتلقي الأخبار والعروض عبر البريد الإلكتروني"
     },
     "settings": {
       "title": "إعدادات",
@@ -3427,7 +3429,8 @@
         "payment_terms": "شروط الدفع",
         "permissions_title": "الأذونات",
         "tax_details_title": "تفاصيل الضريبة",
-        "tax_exemptions": "الإعفاءات الضريبية"
+        "tax_exemptions": "الإعفاءات الضريبية",
+        "net_payment_terms_description": "{{name}} : المدفوعات المستحقة خلال {{numberOfDays}} يومًا"
       },
       "draft_order_details": {
         "payment_status": {
@@ -3449,7 +3452,8 @@
                 "due_later": "الرصيد المتبقي وفقًا لشروط {{translatedName}} ويجب سداده في {{dueDate}} .",
                 "due_on_fulfillment": "يصبح الرصيد مستحقًا بمجرد استيفاء جميع العناصر في هذا الطلب.",
                 "title": "الدفع مستحق",
-                "due_on_date": "يجب سداد الرصيد في {{dueDate}} ."
+                "due_on_date": "يجب سداد الرصيد في {{dueDate}} .",
+                "due_on_receipt": "سوف تتلقى فاتورة بالرصيد المتبقي."
               },
               "title": "الدفع للتأكيد",
               "description": "قم بإرسال الدفعة لتأكيد هذا الطلب."
