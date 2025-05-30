@@ -54,6 +54,7 @@
     "share_facebook": false,
     "share_twitter": false,
     "share_pinterest": false,
+    "favicon": "shopify://shop_images/logo_3.webp",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
